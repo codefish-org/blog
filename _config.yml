@@ -23,19 +23,19 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 Codefish
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Helps you navigate the sea of code
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+# tagline:               >
+#   Fishes for code
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              ['codefish', 'code', 'snippets', 'articles about code', 'coding solutions']
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -44,18 +44,17 @@ logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
-  # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  name:                Codefish
+  email:               hello@codefish.org
+  # Used by `jekyll-seo-tag`:
+  twitter:             codefish_
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Posts
+    url:               /
+  - title:             Categories
+    url:               /categories
   - title:             About
     url:               /about/
 
@@ -108,7 +107,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/sidebar-bg/code-waves.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -218,7 +217,7 @@ hydejack:
   no_push_state:       false
 
   # Set to `true` if you want to disable the drawer
-  no_drawer:           false
+  no_drawer:           true
 
   # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   # Note that this will not hide the navbar completely, only replace it with a static one.
