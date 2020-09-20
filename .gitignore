@@ -49,6 +49,3 @@ _zip
 
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
-
-# Allow local Gemfile.lock
-Gemfile.lock
